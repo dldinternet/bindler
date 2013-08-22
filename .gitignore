@@ -16,3 +16,4 @@ test/version_tmp
 tmp
 development/.vagrant
 .idea
+Gemfile.lock

@@ -4,8 +4,8 @@ source 'https://rubygems.org'
 gemspec
 
 group :development, :test do
-  gem 'vagrant',          github: 'mitchellh/vagrant'
-  gem 'vagrant-lxc',      github: 'fgrehm/vagrant-lxc'
-  gem 'vagrant-cachier',  github: 'fgrehm/vagrant-cachier'
-  gem 'vagrant-pristine', github: 'fgrehm/vagrant-pristine'
+  gem 'vagrant',          :git => 'https://github.com/mitchellh/vagrant'
+  gem 'vagrant-lxc',      :git => 'https://github.com/fgrehm/vagrant-lxc'
+  gem 'vagrant-cachier',  :git => 'https://github.com/fgrehm/vagrant-cachier'
+  gem 'vagrant-pristine', :git => 'https://github.com/fgrehm/vagrant-pristine'
 end
