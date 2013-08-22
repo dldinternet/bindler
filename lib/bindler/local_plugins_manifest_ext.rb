@@ -3,6 +3,7 @@ module VagrantPlugins
     module LocalPluginsManifestExt
       PLUGINS_JSON_LOOKUP = [
         ENV['VAGRANT_PLUGINS_FILENAME'],
+        'vagrant.d/plugins.json',
         'vagrant/plugins.json',
         '.vagrant_plugins.json',
         'plugins.json'
